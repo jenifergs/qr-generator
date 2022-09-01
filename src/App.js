@@ -22,26 +22,25 @@ function App() {
     handleShare(e.target.value);
   }
   return (
-    <div className="container">
-      <div>
-      <h1>Hello World</h1>
+  <div className="container">
+    <div className='container2'>
+      <h1>Gere QRCode com seu <br/>
+        próprio link e baixe ! </h1>
       <input
-      className='input'
-      type="text"
-      placeholder="Digite seu link..."
-      value={ qr }
-      onChange={ (e) => handleChange(e) }
+        className='input'
+        type="text"
+        placeholder="Digite seu link..."
+        value={ qr }
+        onChange={ (e) => handleChange(e) }
       />
-        <a href={ share } download='qrcode.png'> Baixar QRCode</a>
-
-      </div>
-
-      <div className='card'>
-
-      <QRCode size='200' value={qr} />
-      </div>
-
+       <a href={ share } download='qrcode.png'> Baixar QRCode</a>
     </div>
+
+    <div className='card'>
+      <QRCode size='200' value={qr} />
+    </div>
+
+  </div>
   );
 }
 

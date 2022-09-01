@@ -1,12 +1,35 @@
+* {
+  margin: 0;
+}
 .container { 
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 100px;
-  width: 100%;
+  gap: 70px;
   align-items: center;
   height: 100vh;
   width: 100vw;
+  width: 100%;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #FFE53B;
+background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
 }
 
 .input {
@@ -29,4 +52,7 @@
   border: 1px solid #ccc;
   width: 230px;
   height: 230px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 5px 5px 50px rgb(50, 46, 46);
 }
