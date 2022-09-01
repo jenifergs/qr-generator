@@ -8,7 +8,7 @@ Foi feito em REactJs e o pacote https://www.npmjs.com/package/qrcode#todataurlte
 
 Imagem da aplicação 
 <div>
-	<img src="./src/generator-qr.png">
+	<img width='500' src="./src/generator-qr.png">
 </div>
 
 
