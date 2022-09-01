@@ -1,6 +1,6 @@
-###QR generator
+### QR generator
 
-Aplicasção gera QRCode a partir de qualquer link, podendo ser baixado no formato .png
+Aplicação gera QRCode a partir de qualquer link, podendo ser baixado no formato .png
 Foi feito em REactJs e o pacote https://www.npmjs.com/package/qrcode#todataurltext-options-cberror-url
 
 
